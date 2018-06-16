@@ -11,7 +11,7 @@ This is based upon the standard [Nuxt template](https://github.com/nuxt-communit
 - Contentservice.io  
 - Crowdhound.io  
 
-The generated project has ***user authentication***, ***content management*** and ***social media*** functionality, out-of-the-box.
+The generated project has ***user authentication***, ***content management*** and ***social media*** functionality out-of-the-box.
 
 ## Prerequisites
 
