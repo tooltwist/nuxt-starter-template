@@ -2,7 +2,18 @@
 
 A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template without the distraction of a complicated development environment.
 
-Live demo: https://starter.nuxtjs.org
+This is based upon the standard [Nuxt template](https://github.com/nuxt-community/starter-template) and adds:
+
+- Pug  
+- SCSS  
+- Bulma  
+- Buefy  
+- Axios  
+- Authservice.io  
+- Contentservice.io  
+- Crowdhound.io  
+
+The generated project has user authentication, content management and social media functionality, out-of-the-box.
 
 ## Prerequisites
 
