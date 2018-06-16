@@ -1,0 +1,17 @@
+// Positioning of the footer
+$my-header-height: 52;
+$my-footer-height: 42;
+
+.above-my-footer {
+  display: block;
+  top: 0px;
+  min-height: calc(100vh - #{$my-footer-height}px);
+  padding-top: #{$my-header-height}px;
+}
+.my-footer {
+  height: $my-footer-height;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  border-top: solid 1px #e0e0e0;
+  border-bottom: solid 1px #e0e0e0;
+}
