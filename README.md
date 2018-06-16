@@ -6,14 +6,12 @@ This is based upon the standard [Nuxt template](https://github.com/nuxt-communit
 
 - Pug  
 - SCSS  
-- Bulma  
-- Buefy  
-- Axios  
+- Bulma and Buefy  
 - Authservice.io  
 - Contentservice.io  
 - Crowdhound.io  
 
-The generated project has **user authentication**, **content management** and **social media** functionality, out-of-the-box.
+The generated project has ***user authentication***, ***content management*** and ***social media*** functionality, out-of-the-box.
 
 ## Prerequisites
 
