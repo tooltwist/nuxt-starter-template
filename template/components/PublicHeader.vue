@@ -16,6 +16,7 @@
         .navbar-start
           router-link.navbar-item(to="/publicPage") publicPage
           router-link.navbar-item(to="/user/privatePage", v-show="isLoggedIn") privatePage
+          router-link.navbar-item(to="/user/account", v-show="isLoggedIn") Account
         //- navbar-start
 
         .navbar-end
