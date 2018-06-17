@@ -16,11 +16,11 @@
         .navbar-start
           router-link.navbar-item(to="/publicPage") publicPage
           router-link.navbar-item(to="/user/privatePage", v-show="isLoggedIn") privatePage
-          router-link.navbar-item(to="/user/account", v-show="isLoggedIn") Account
         //- navbar-start
 
         .navbar-end
           .navbar-item.has-text-grey-light.is-size-7.has-text-weight-light(v-show="isLoggedIn") [ \{{userTitle}} ]
+          router-link.navbar-item(to="/user/account", v-show="isLoggedIn") Account
           router-link.navbar-item(v-show="!isLoggedIn", to="/login") Login
           a.navbar-item(v-show="isLoggedIn", @click="doLogout") Sign out
         //- navbar-end
